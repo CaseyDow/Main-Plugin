@@ -1,0 +1,40 @@
+name: SolarMain
+version: 1.0.0
+author: solarlego
+main: me.solarlego.solarmain.SolarMain
+load: STARTUP
+commands:
+  hub:
+    usage: "\u00A7cUsage: /<command>"
+    description: Transfers the sender to the hub
+    aliases: [l, lobby, zoo]
+  warp:
+    usage: "\u00A7cUsage: /<command> <world> [player]"
+    description: Transfers the sender to another world
+    permission: solarlego.command.warp
+  rank:
+    usage: "\u00A7cUsage: /<command> <player> <rank>"
+    description: Changes a player's rank
+  party:
+    usage: "\u00A7cUsage: /<command> help"
+    description: Lists the party help commands
+    aliases: [p, fiesta]
+  chat:
+    usage: "\u00A7cUsage: /<command> <chat>"
+    description: Sets the chat channel for the player
+  message:
+    usage: "\u00A7cUsage: /<command> <player> [message]"
+    description: Sets the chat to a player or sends a message to a player
+    aliases: [msg, whisper, w, tell, t]
+  reply:
+    usage: "\u00A7cUsage: /<command> <message>"
+    description: Replies to the last player who messaged you
+    aliases: [r]
+  achat:
+    usage: "\u00A7cUsage: /<command> <message>"
+    description: Sends a message in the specified chat
+    aliases: [ac, wchat, wc, pchat, pc]
+  play:
+    usage: "\u00A7cUsage: /<command> [game]"
+    description: Transfers the sender into a game
+    aliases: [game, games]

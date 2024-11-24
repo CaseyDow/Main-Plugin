@@ -1,0 +1,16 @@
+scoreboards:
+  world_name:
+    name: 'Title'
+    '2': 'Line 1'
+    '1': 'Line 2'
+    '0': 'Line 3'
+
+sameTab:
+  world:
+    - world_nether
+    - world_the_end
+
+ranks:
+  Default:
+    color: '&f'
+    prefix: '&f'
